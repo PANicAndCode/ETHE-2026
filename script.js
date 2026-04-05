@@ -201,7 +201,7 @@ function finishPlacementForTeam(team = teamKey){
 function placementPrize(place){
   if (place === 1) return "prize";
   if (place === 2) return "prize";
-  if (place === 3) return "prize;
+  if (place === 3) return "prize";
   if (place === 4 || place === 5) return 6;
   return 0;
 }
